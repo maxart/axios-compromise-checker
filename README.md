@@ -4,7 +4,9 @@ On **March 30, 2026**, the popular [`axios`](https://www.npmjs.com/package/axios
 
 This repository provides **detection and cleanup scripts** for Windows, WSL (Windows Subsystem for Linux), Linux, and macOS. The scripts scan your system for indicators of compromise, help you clean up, and harden your environment against future attacks.
 
-> **You do not need to be a developer to use these scripts.** Step-by-step instructions are below.
+> **You do not need to be a developer to use these scripts.** Follow the steps for your platform:
+> - [Windows (PowerShell)](#windows-powershell)
+> - [WSL / Linux / macOS (Bash)](#wsl--linux--macos-bash)
 
 ---
 
@@ -36,7 +38,7 @@ The entire attack happened **within seconds** of running `npm install`.
 
 Pick the script for your environment and follow the steps below.
 
-### Option A: Windows (PowerShell)
+### Windows (PowerShell)
 
 This is the best option if you primarily develop on Windows outside of WSL.
 
@@ -61,7 +63,7 @@ This is the best option if you primarily develop on Windows outside of WSL.
 
 > **Already have the repo cloned?** Navigate to the folder and run `.\respond.ps1` directly.
 
-### Option B: WSL / Linux / macOS (Bash)
+### WSL / Linux / macOS (Bash)
 
 This is the best option if you develop inside WSL, or on a Linux or macOS machine. On WSL, this script also checks the Windows side automatically.
 
